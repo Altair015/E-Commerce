@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header-item{
+    display: flex;
+    flex-grow: 0.5;
+    background-color: grey;
+}
+
+.main-item {
+    display: flex;
+
+    flex-grow: 10;
+    background-color: whitesmoke;
+}
+
+.footer-item {
+    flex-grow: 3;
+    background-color: black;
+}
