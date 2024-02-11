@@ -14,9 +14,25 @@
     box-sizing: border-box;
 }
 
+.nav-bg{
+    background-color: #f2f2f2;
+}
+
 .navbar-item-color{
     color: #c7c405;
     transition-duration: 200ms;
+}
+
+.nav-link-active{
+    color:  black;
+}
+
+.nav-link-active:active{
+    color:  #fefce7;
+}
+
+.font-theme{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
 }
 
 .search-button{
