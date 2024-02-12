@@ -43,6 +43,10 @@
     font-size: larger;
 }
 
+.crousel-text{
+    font-family: 'Protest Riot', sans-serif;
+}
+
 .search-button:hover{
     background-color: #7c7a03;
     border-color: #7c7a03;
@@ -52,7 +56,6 @@
 .icon-text{
     color: #f8f663;
     font-family: 'Protest Riot', sans-serif;
-    font-size: 30px;
     transition: color 200ms;
 }  
 
@@ -64,10 +67,23 @@
     color: #7c7a03;
 }
 
+.dropdown:hover {
+    background-color: #fdfdea;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
 
 @media screen and (min-width: 769px) {        
     .search-form{
         display: flex;
         flex: 0.8;
     }
+}
+
+/* class for disabling text-selection */
+.no-select {
+    user-select: none;
 }
