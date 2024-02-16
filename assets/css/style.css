@@ -10,32 +10,32 @@
 
 /* Class to control the radius of the search button. */
 
-*{
+* {
     box-sizing: border-box;
 }
 
-.nav-bg{
+.nav-bg {
     background-color: #f2f2f2;
 }
 
-.navbar-item-color{
+.navbar-item-color {
     color: #c7c405;
     transition-duration: 200ms;
 }
 
-.nav-link-active{
-    color:  black;
+.nav-link-active {
+    color: black;
 }
 
-.nav-link-active:active{
-    color:  #fefce7;
+.nav-link-active:active {
+    color: #fefce7;
 }
 
-.font-theme{
+.font-theme {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
 }
 
-.search-button{
+.search-button {
     background-color: #c7c405;
     transition-duration: 300ms;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
@@ -43,27 +43,27 @@
     font-size: larger;
 }
 
-.crousel-text{
+.crousel-text {
     font-family: 'Protest Riot', sans-serif;
 }
 
-.search-button:hover{
+.search-button:hover {
     background-color: #7c7a03;
     border-color: #7c7a03;
     font-weight: 900;
 }
 
-.icon-text{
+.icon-text {
     color: #f8f663;
     font-family: 'Protest Riot', sans-serif;
     transition: color 200ms;
-}  
+}
 
-.icon-text:hover{
+.icon-text:hover {
     color: #7c7a03;
 }
 
-.navbar-item-color:hover{
+.navbar-item-color:hover {
     color: #7c7a03;
 }
 
@@ -74,10 +74,21 @@
 
 .dropdown:hover .dropdown-menu {
     display: block;
-  }
+}
 
-@media screen and (min-width: 769px) {        
-    .search-form{
+.cover-page {
+    background-image: url(../img/Shopperce.webp);
+    background-position: center;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (min-width: 769px) {
+    .search-form {
         display: flex;
         flex: 0.8;
     }

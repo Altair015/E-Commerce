@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <title>ESHOP</title>
+</head>
+
+<body class="d-flex flex-column vh-100">
+  <header class="p-3 navbar bg-dark navbar-expand-sm navbar-dark">
+    <div class="container-fluid justify-content-between">
+      <a class="navbar-brand icon-text fs-1" href="../">Shopperce</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-sm-center gap-4" id="navbarNavAltMarkup">
+        <div class="search-form flex-grow-1 my-2 justify-content-center">
+          <form class="d-flex search-form" role="search">
+            <input class="form-control border-0 rounded-2 rounded-top-0 rounded-end-0" type="search"
+              placeholder="Product name, Category name etc.">
+            <button class="btn btn-sm border-0 rounded-2 rounded-start-0 rounded-bottom-0 search-button"
+              type="button">Search</button>
+          </form>
+        </div>
+        <a class="text-decoration-none my-2 btn btn-sm border-0 search-button" href="pages/login.html">Login</a>
+        <a href="pages/cart.html" class="my-1 pe-2 d-flex text-decoration-none">
+          <i class="fa fa-2x fa-shopping-cart content-color navbar-item-color"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+  <nav class="nav nav-bg justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link text-black" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-black" aria-current="page" href="pages/product.html">All Products</a>
+    </li>
+    <li class="nav-item  dropdown">
+      <a class="nav-link text-black dropdown-toggle">Women</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">All products</a></li>
+        <li><a class="dropdown-item" href="#">Dresses</a></li>
+        <li><a class="dropdown-item" href="#">Pants</a></li>
+        <li><a class="dropdown-item" href="#">Skirts</a></li>
+      </ul>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link text-black dropdown-toggle">Men</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">All products</a></li>
+        <li><a class="dropdown-item" href="#">Shirts</a></li>
+        <li><a class="dropdown-item" href="#">Pants</a></li>
+        <li><a class="dropdown-item" href="#">Hoodies</a></li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-black" href="#">Kids</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-black" href="pages/contact.html">Contact</a>
+    </li>
+  </nav>
+  <main>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- First Slide -->
+        <!-- data-bs-interval is used to set the time for change to the next slide. -->
+        <!-- active class is used to set which slide will be the default slide.  -->
+        <div class="carousel-item active" data-bs-interval="10000">
+          <div class="d-flex flex-column align-items-center justify-content-center"
+            style="height: 60vh; background-image: url(assets/img/Shopperce.webp); background-position: center;">
+            <p class="shadow m-0 pb-2 display-2 crousel-text text-white text-center no-select">Shopperce</p>
+            <p class="m-0 px-2 fs-5 font-theme text-white text-center no-select">
+              A perfectionist's wardrobe for every occassion.
+            </p>
+          </div>
+        </div>
+        <!-- Second Slide -->
+        <div class="carousel-item" data-bs-interval="10000">
+          <div class="d-flex flex-column align-items-center justify-content-center"
+            style="height: 60vh; background-image: url(assets/img/Shopperce.webp); background-position: center;">
+            <p class="shadow m-0 pb-2 display-2 crousel-text text-white text-center no-select">Shopperce</p>
+            <p class="m-0 px-2 fs-5 font-theme text-white text-center no-select">
+              A perfectionist's wardrobe for every occassion.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Buttons to change the slide of crousel. -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+  <footer class="flex-grow-1 flex-shrink-1 bg-primary">
+
+  </footer>
+</body>
+
+</html>
