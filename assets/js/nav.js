@@ -1,5 +1,5 @@
 let navContainer = document.createElement("nav");
-navContainer.setAttribute("class","nav nav-bg justify-content-center");
+navContainer.setAttribute("class", "nav nav-bg justify-content-center");
 document.querySelector("header").after(navContainer);
 
 let navItem = document.createElement("li");
@@ -40,7 +40,7 @@ navDrop.appendChild(navDropItem);
 
 let navDropLink = document.createElement("a");
 navDropLink.setAttribute("class", "dropdown-item");
-navDropLink.setAttribute("href","#");
+navDropLink.setAttribute("href", "#");
 navDropLink.innerText = "All products";
 navDropItem.appendChild(navDropLink);
 
@@ -49,7 +49,7 @@ navDrop.appendChild(navDropItem1);
 
 let navDropLink1 = document.createElement("a");
 navDropLink1.setAttribute("class", "dropdown-item");
-navDropLink1.setAttribute("href","#");
+navDropLink1.setAttribute("href", "#");
 navDropLink1.innerText = "Dresses";
 navDropItem1.appendChild(navDropLink1);
 
@@ -58,7 +58,7 @@ navDrop.appendChild(navDropItem2);
 
 let navDropLink2 = document.createElement("a");
 navDropLink2.setAttribute("class", "dropdown-item");
-navDropLink2.setAttribute("href","#");
+navDropLink2.setAttribute("href", "#");
 navDropLink2.innerText = "Pants";
 navDropItem2.appendChild(navDropLink2);
 
@@ -67,7 +67,7 @@ navDrop.appendChild(navDropItem3);
 
 let navDropLink3 = document.createElement("a");
 navDropLink3.setAttribute("class", "dropdown-item");
-navDropLink3.setAttribute("href","#");
+navDropLink3.setAttribute("href", "#");
 navDropLink3.innerText = "Skirts";
 navDropItem3.appendChild(navDropLink3);
 
@@ -89,7 +89,7 @@ navDrop1.appendChild(navDropItem4);
 
 let navDropLink4 = document.createElement("a");
 navDropLink4.setAttribute("class", "dropdown-item");
-navDropLink4.setAttribute("href","#");
+navDropLink4.setAttribute("href", "#");
 navDropLink4.innerText = "All products";
 navDropItem4.appendChild(navDropLink4);
 
@@ -98,7 +98,7 @@ navDrop1.appendChild(navDropItem5);
 
 let navDropLink5 = document.createElement("a");
 navDropLink5.setAttribute("class", "dropdown-item");
-navDropLink5.setAttribute("href","#");
+navDropLink5.setAttribute("href", "#");
 navDropLink5.innerText = "Shirts";
 navDropItem5.appendChild(navDropLink5);
 
@@ -107,7 +107,7 @@ navDrop1.appendChild(navDropItem6);
 
 let navDropLink6 = document.createElement("a");
 navDropLink6.setAttribute("class", "dropdown-item");
-navDropLink6.setAttribute("href","#");
+navDropLink6.setAttribute("href", "#");
 navDropLink6.innerText = "Pants";
 navDropItem6.appendChild(navDropLink6);
 
@@ -116,7 +116,7 @@ navDrop1.appendChild(navDropItem7);
 
 let navDropLink7 = document.createElement("a");
 navDropLink7.setAttribute("class", "dropdown-item");
-navDropLink7.setAttribute("href","#");
+navDropLink7.setAttribute("href", "#");
 navDropLink7.innerText = "Hoodies";
 navDropItem7.appendChild(navDropLink7);
 

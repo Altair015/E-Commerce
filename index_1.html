@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script type="module" src="assets/js/header.js"></script>
+  <script type="module" src="assets/js/nav.js"></script>
+  <title>Shopperce</title>
+</head>
+
+<body>
+  <div class="d-flex flex-column vh-100">
+    <main class="d-flex flex-column flex-fill">
+      <section class="d-flex flex-column flex-grow-1 flex-shrink-1 justify-content-center cover-page">
+        <p class="m-0 pb-2 display-2 crousel-text text-white text-center no-select">Shopperce</p>
+        <p class="m-0 px-2 fs-5 font-theme text-white text-center no-select">
+          A perfectionist's wardrobe for every occassion.
+        </p>
+      </section>
+      <div class="d-flex display-1 align-center justify-content-center">
+        Featured Products
+      </div>
+      <section id="carouselExampleInterval1" class="carousel slide d-flex flex-fill" data-bs-ride="carousel">
+        <div class="carousel-inner d-flex flex-fill">
+          <!-- First Slide -->
+          <!-- data-bs-interval is used to set the time for change to the next slide. -->
+          <!-- active class is used to set which slide will be the default slide.  -->
+          <div class="carousel-item active cover-page" data-bs-interval="10000">
+            <p class="m-0 pb-2 display-2 crousel-text text-white text-center no-select">Shopperce</p>
+            <p class="m-0 px-2 fs-5 font-theme text-white text-center no-select">
+              A perfectionist's wardrobe for every occassion.
+            </p>
+          </div>
+          <!-- Second Slide -->
+          <div class="carousel-item cover-page" data-bs-interval="10000">
+            <p class="m-0 pb-2 display-2 crousel-text text-white text-center no-select">Shopperce</p>
+            <p class="m-0 px-2 fs-5 font-theme text-white text-center no-select">
+              A perfectionist's wardrobe for every occassion.
+            </p>
+          </div>
+        </div>
+        <!-- Buttons to change the slide of crousel. -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval1"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval1"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+
+    </main>
+  </div>
+</body>
+
+</html>

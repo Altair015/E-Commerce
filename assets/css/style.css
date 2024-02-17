@@ -79,13 +79,22 @@
 .cover-page {
     background-image: url(../img/Shopperce.webp);
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+.text-shadow {
+    text-shadow: grey 3px 2px 2px;
+}
+
 
 @media screen and (min-width: 769px) {
     .search-form {
@@ -97,4 +106,28 @@
 /* class for disabling text-selection */
 .no-select {
     user-select: none;
+}
+
+@media (min-width: 426px) {
+    .hidemin425 {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .hidemax425 {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .hidemin768 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .hidemax768 {
+        display: none;
+    }
 }
