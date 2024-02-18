@@ -1,5 +1,5 @@
 let navContainer = document.createElement("nav");
-navContainer.setAttribute("class", "nav nav-bg justify-content-center");
+navContainer.setAttribute("class", "nav nav-bg font-theme justify-content-center");
 document.querySelector("header").after(navContainer);
 
 let navItem = document.createElement("li");
