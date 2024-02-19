@@ -112,6 +112,10 @@
     .hidemin425 {
         display: none;
     }
+
+    .flex-fivesevensix {
+        flex: 0.5;
+    }
 }
 
 @media (max-width: 425px) {
