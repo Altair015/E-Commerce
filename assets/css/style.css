@@ -83,13 +83,13 @@
     background-repeat: no-repeat;
 }
 
-.carousel-item-next,
+/* .carousel-item-next,
 .carousel-item-prev,
 .carousel-item.active {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 
 .text-shadow {
     text-shadow: grey 3px 2px 2px;

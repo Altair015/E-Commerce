@@ -85,4 +85,4 @@ collapsibleContent.appendChild(cartLink);
 cartLink.appendChild(cartIcon);
 
 // Appending header to the document body
-document.body.querySelector("div").prepend(headerContainer)
+document.body.querySelector("main").prepend(headerContainer)
