@@ -9,7 +9,15 @@ headerItemsContainer.setAttribute("class", "container-fluid justify-content-betw
 // Creating brand link
 let brandLink = document.createElement("a");
 brandLink.setAttribute("class", "navbar-brand icon-text fs-1");
-brandLink.setAttribute("href", "../");
+if (window.location.href.includes("men")) {
+    brandLink.setAttribute("href", "../../index.html");
+}
+else if (window.location.href.includes("pages")) {
+    brandLink.setAttribute("href", "../index.html");
+}
+else {
+    brandLink.setAttribute("href", "../index.html");
+}
 brandLink.innerText = "Shopperce";
 
 // Creating toggler button
@@ -62,13 +70,29 @@ searchFormContainer.appendChild(searchForm);
 // Creating login button
 let loginButton = document.createElement("a");
 loginButton.setAttribute("class", "text-decoration-none my-2 btn btn-sm border-0 search-button");
-loginButton.setAttribute("href", "pages/login.html");
+if (window.location.href.includes("men")) {
+    loginButton.setAttribute("href", "../../pages/login.html");
+}
+else if (window.location.href.includes("pages")) {
+    loginButton.setAttribute("href", "../pages/login.html");
+}
+else {
+    loginButton.setAttribute("href", "pages/login.html");
+}
 loginButton.innerText = "Login";
 
 // Creating cart link
 let cartLink = document.createElement("a");
 cartLink.setAttribute("class", "my-1 pe-2 d-flex text-decoration-none");
-cartLink.setAttribute("href", "pages/cart.html");
+if (window.location.href.includes("men")) {
+    cartLink.setAttribute("href", "../../pages/cart.html");
+}
+else if (window.location.href.includes("pages")) {
+    cartLink.setAttribute("href", "../pages/cart.html");
+}
+else {
+    cartLink.setAttribute("href", "pages/cart.html");
+}
 
 // Creating cart icon
 let cartIcon = document.createElement("i");
@@ -85,4 +109,9 @@ collapsibleContent.appendChild(cartLink);
 cartLink.appendChild(cartIcon);
 
 // Appending header to the document body
-document.body.getElementsByClassName("vh-100").item(0).prepend(headerContainer)
+if (window.location.href.includes("pages")) {
+    document.body.prepend(headerContainer)
+}
+else {
+    document.body.getElementsByClassName("div-home").item(0).prepend(headerContainer)
+}
