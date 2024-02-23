@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-quarter {
+    flex: 0.25;
+}
+
+.flex-half {
+    flex: 0.5;
+}
+
+.flex-three-quarter {
+    flex: 0.75;
+}
+
+.flex-full {
+    flex: 1;
+}
