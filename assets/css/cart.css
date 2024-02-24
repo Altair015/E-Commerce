@@ -19,3 +19,39 @@
 .flex-full {
     flex: 1;
 }
+
+.temp {
+    display: flex;
+}
+
+@media (max-width: 576px) {
+    .temp {
+        display: block;
+    }
+
+    .padding2576 {
+        padding: 8px 0;
+    }
+
+    .margin4576 {
+        margin-top: 24px;
+    }
+
+    .flex-wrap577 {
+        flex-wrap: wrap;
+    }
+
+    .flex-full577 {
+        flex: 1;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .temp {
+        display: block;
+    }
+
+    .margin4768 {
+        margin-top: 24px;
+    }
+}
