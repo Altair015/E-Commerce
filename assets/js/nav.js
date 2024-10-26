@@ -236,3 +236,15 @@ else {
 }
 navLink5.innerText = "Contact Us";
 navItem5.appendChild(navLink5);
+
+function resToggle() {
+    if (window.screen.width <= 768) {
+        navLink3.setAttribute("data-bs-toggle", "dropdown");
+        navLink2.setAttribute("data-bs-toggle", "dropdown");
+    }
+    else {
+        navLink3.removeAttribute("data-bs-toggle", "dropdown");
+        navLink2.removeAttribute("data-bs-toggle", "dropdown");
+    }
+}
+window.addEventListener("resize", resToggle);

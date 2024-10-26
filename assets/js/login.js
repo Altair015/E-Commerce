@@ -1,5 +1,6 @@
 console.log(document.getElementById("loginSubmit"))
 
+// LoginAuthentication
 function authEntication() {
     let email = document.getElementById("emailId");
     let pass = document.getElementById("passId");
