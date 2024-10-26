@@ -16,7 +16,7 @@ else if (window.location.href.includes("pages")) {
     brandLink.setAttribute("href", "../index.html");
 }
 else {
-    brandLink.setAttribute("href", "../index.html");
+    brandLink.setAttribute("href", "index.html");
 }
 brandLink.innerText = "Shopperce";
 

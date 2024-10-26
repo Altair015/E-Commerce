@@ -164,7 +164,7 @@ else if (window.location.href.includes("pages")) {
     HomeItem.setAttribute("href", "../index.html");
 }
 else {
-    HomeItem.setAttribute("href", "../index.html");
+    HomeItem.setAttribute("href", "index.html");
 }
 HomeItem.innerText = "Home";
 LinkContainer.appendChild(HomeItem)
