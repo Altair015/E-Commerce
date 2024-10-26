@@ -1,0 +1,15 @@
+.flex-one-thrid {
+    flex: 0.33;
+}
+
+@media (max-width: 576px) {
+    .flex-one {
+        flex: 0.65;
+    }
+}
+
+@media (min-width:577px) and (max-width: 768px) {
+    .flex-half {
+        flex: 0.5;
+    }
+}

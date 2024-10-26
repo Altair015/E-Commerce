@@ -1,0 +1,155 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Exo+2&family=Protest+Riot&display=swap');
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+/* Class to control the radius of the search button. */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bg {
+    background-color: #f2f2f2;
+}
+
+.navbar-item-color {
+    color: #c7c405;
+    transition-duration: 200ms;
+}
+
+.nav-link-active {
+    color: black;
+}
+
+.nav-link-active:active {
+    color: #fefce7;
+}
+
+.font-theme {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+}
+
+.search-button {
+    background-color: #c7c405;
+    transition-duration: 300ms;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    font-weight: 600;
+    font-size: larger;
+}
+
+.crousel-text {
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.search-button:hover {
+    background-color: #7c7a03;
+    border-color: #7c7a03;
+    font-weight: 900;
+}
+
+.icon-text {
+    color: #f8f663;
+    font-family: 'Protest Riot', sans-serif;
+    transition: color 200ms;
+}
+
+.icon-text:hover {
+    color: #7c7a03;
+}
+
+.navbar-item-color:hover {
+    color: #7c7a03;
+}
+
+.cover-page {
+    background-image: url(../img/Shopperce.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.text-shadow {
+    text-shadow: grey 3px 2px 2px;
+}
+
+
+@media screen and (min-width: 769px) {
+    .search-form {
+        display: flex;
+        flex: 0.8;
+    }
+
+    .dropdown:hover {
+        background-color: #fdfdea;
+        cursor: pointer;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+/* class for disabling text-selection */
+.no-select {
+    user-select: none;
+}
+
+@media (min-width: 426px) {
+    .hidemin425 {
+        display: none;
+    }
+
+    .flex-fivesevensix {
+        flex: 0.5;
+    }
+}
+
+@media (max-width: 425px) {
+    .hidemax425 {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .hidemin768 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .hidemax768 {
+        display: none;
+    }
+}
+
+.flex-quarter {
+    flex: 0.25;
+}
+
+.flex-half {
+    flex: 0.5;
+}
+
+.flex-three-quarter {
+    flex: 0.75;
+}
+
+.flex-full {
+    flex: 1;
+}

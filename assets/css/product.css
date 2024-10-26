@@ -1,0 +1,44 @@
+@media screen and (max-width: 769px) {
+    .wrap768 {
+        flex-wrap: wrap;
+    }
+
+    .cardwidth {
+        width: 210px;
+    }
+
+    .text-md-sm {
+        font-size: small;
+    }
+
+    .text-md-md {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .cardwidth {
+        width: 425px;
+    }
+
+    .text-sm-sm {
+        font-size: small;
+    }
+
+    .text-sm-md {
+        font-size: medium;
+    }
+}
+
+
+.text-sm {
+    font-size: small;
+}
+
+.text-md {
+    font-size: medium;
+}
+
+.text-lg {
+    font-size: large;
+}

@@ -1,0 +1,14 @@
+.flex-fill {
+    flex: 1 !important
+}
+
+@media screen and (max-width: 768px) {
+    .img-flex {
+        flex: 1;
+        overflow: hidden;
+    }
+
+    .flex-directi {
+        flex-direction: column;
+    }
+}

@@ -1,3 +1,17 @@
 Created the directory structure with the help of ChatGPT.
 Created/Renamed the HTML files index.html in the root directory "E-Commerce" and login.html,product.html, cart.html, and contact.html in the sub-directory "pages".
+Created the "style.css" file under directory assets/css.
+Created the HTML files women.html, dress.html, pant.html and skirt.html in path "pages/women".
+Created the HTML files men.html, shirt.html, pant.html and hoodie.html in path "pages/men".
 Added the titles in the HTML files.
+Imported the "font-awesome.css" and "bootstrap.min.css" in the file using @import url() in the "style.css" file.
+Added the style.css file in all the HTML file using <link> tag.
+Created the JavaScript files nav.js, header.js and footer.js.
+Added these files in all the html files using script tag to generate the Header, Navigation and Footer Dynamically.
+Wrote the functionality of header, footer and navigation using Bootstrap, Font-Awesome and Custom classes in the header.js, footer.js and nav.js files respectively.
+Downloaded the cover-page image from "unsplash.com" customised it using the Image Editor to meet the requirement.
+Styled the brand text "Shopperce" and slogan and aligned on the cover-page.
+Added the crousel from the Bootstrap.com and customised it as per the requirement.
+Created the image grid using flex on the product.html page and copied it on the required html pages.
+Downloaded and customised the images to fit the card of the grid.
+Inserted the images in the html files.

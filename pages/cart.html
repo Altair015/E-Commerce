@@ -1,11 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/cart.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+        defer></script>
+    <script src="../assets/js/header.js" defer></script>
+    <script src="../assets/js/nav.js" defer></script>
+    <script src="../assets/js/footer.js" defer></script>
     <title>ESHOP | Cart</title>
 </head>
-<body>
-    
+
+<body class="d-flex flex-column vh-100">
+    <!-- Cart Page -->
+    <main class="temp font-theme justify-content-center flex-fill">
+        <div class="flex-three-quarter temp p-4 gap-4">
+            <!-- First Grid -->
+            <div class="flex-three-quarter">
+                <!-- First Grid Container -->
+                <div class="d-flex border rounded-2 flex-column flex-full">
+                    <!-- First Grid Header -->
+                    <p class="m-0 p-2 bg-secondary-subtle fs-2 fw-semibold text-center">
+                        Items in cart
+                    </p>
+                    <!-- Product -->
+                    <div class="d-flex flex-column flex-full">
+                        <div class="d-sm-flex p-2 gap-4 flex-wrap">
+                            <!-- Product Image -->
+                            <div class="d-flex flex-full">
+                                <img src="../assets/img/kid/akrleid.webp" class="object-fit-center flex-full577"
+                                    alt="...">
+                            </div>
+                            <!-- Price and Delete Button -->
+                            <div class="d-flex flex-column flex-full">
+                                <div class="d-flex flex-column align-items-center flex-half">
+                                    <h5 class="fw-bold fs-4 text-center padding2576">Product Name</h5>
+                                    <h5 class="fw-medium padding2576 py-3">₹ 6000</h5>
+                                    <a href="#" class="btn fw-bolder btn-sm border-0 search-button">
+                                        <i class="fa fa-1x fa-trash"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Quantity Change Buttons -->
+                            <div class="d-flex justify-content-center flex-full padding2576">
+                                <div class="d-flex flex-column flex-three-quarter">
+                                    <div class="d-flex gap-2">
+                                        <button type="button" class="btn btn-sm border-0 search-button">
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                        <input type="number" class="text-center form-control" id="carTextId">
+                                        <button type="button" class="btn btn-sm fw-bolder border-0 search-button">
+                                            <i class="fa fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Second Grid -->
+            <div class="flex-quarter margin4576 margin4768">
+                <div class="border rounded-2">
+                    <p class="m-0 p-2 bg-secondary-subtle fs-2 fw-semibold text-center">
+                        Summary
+                    </p>
+                    <div class="d-flex flex-column align-items-between justify-content-between p-2">
+                        <div class="d-flex justify-content-between pt-2">
+                            <h5 class="fw-medium">Cost</h5>
+                            <h5 class="fw-medium">₹ 6000</h5>
+                        </div>
+                        <div class="d-flex justify-content-between pt-2">
+                            <h5 class="fw-medium">Shipping</h5>
+                            <h5 class="fw-medium">₹ 500</h5>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between py-2">
+                            <h5 class="fw-semibold">Total</h5>
+                            <h5 class="fw-semibold">₹ 6500</h5>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="button" class="btn fw-medium btn-sm border-0 search-button">Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
